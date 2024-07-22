@@ -10,7 +10,7 @@ app.use(bodyparser.json())
 
 app.use(cors())
 
-mongoose.connect("mongodb+srv://admin:mJf2iI8VOE5NTssU@cluster0.0ahpqe6.mongodb.net/")
+mongoose.connect("mongodb+srv://amazon:amazon@amazon.pyoc4qb.mongodb.net/mern?retryWrites=true&w=majority")
 .then((res)=>{
    console.log("mongodbconnect successfully")
 })
